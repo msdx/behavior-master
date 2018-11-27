@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">BehaviorMaster</string>
+    <string name="scroll_layout_behavior">ScrollLayoutBehavior</string>
     <string name="scroll_layout_behavior_description">
         ScrollLayoutBehavior是一个可以通过手势进行多段展开收缩状态的Behavior，这几个状态分别为全展开，半展开，半收缩。它的三个属性说明如下：\n
         behavior_belowTo，值为id，指定内容位置不能超过该指定id的View，以免重叠。\n

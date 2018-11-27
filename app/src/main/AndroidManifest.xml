@@ -17,7 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ScrollLayoutActivity"/>
+        <activity android:name=".ScrollLayoutActivity"
+                  android:label="@string/scroll_layout_behavior"/>
     </application>
 
 </manifest>
