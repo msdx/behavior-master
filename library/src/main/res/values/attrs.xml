@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollLayoutBehavior_Layout">
+        <attr name="behavior_halfExpandedSpace" format="dimension"/>
+        <attr name="behavior_fullExpandedSpace" format="dimension"/>
+        <attr name="behavior_belowTo" format="reference"/>
+    </declare-styleable>
+</resources>

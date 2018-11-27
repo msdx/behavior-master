@@ -1,0 +1,3 @@
+<resources>
+    <string name="behavior_scroll_layout">com.githang.behavior.ScrollLayoutBehavior</string>
+</resources>
