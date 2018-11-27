@@ -17,9 +17,11 @@ class ScrollLayoutActivity : AppCompatActivity() {
         val behavior = ScrollLayoutBehavior.from(frame_layout)
         behavior.setScrollLayoutCallback(object: ScrollLayoutBehavior.ScrollLayoutCallback() {
             override fun onStateChanged(viewGroup: ViewGroup, oldState: Int, newState: Int) {
+                // 在这里的根据所切换的状态，可以控制其他视图的显示隐藏
             }
 
             override fun onSlide(viewGroup: ViewGroup, behavior: ScrollLayoutBehavior<*>?, position: Int) {
+                // 这里通过位置的回调，可以设置一些渐变的变化，比如设置状态栏或标题栏的显示或隐藏
             }
 
         })

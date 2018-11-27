@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">BehaviorMaster</string>
+    <string name="scroll_layout_behavior_description">
+        ScrollLayoutBehavior是一个可以通过手势进行多段展开收缩状态的Behavior，这几个状态分别为全展开，半展开，半收缩。它的三个属性说明如下：\n
+        behavior_belowTo，值为id，指定内容位置不能超过该指定id的View，以免重叠。\n
+        behavior_fullExpandedSpace，值为dp，完全展开时距离顶部的间隔，如果不需要有间隔，可以设置为0dp。\n
+        behavior_halfExpandedSpace，值为dp，半展开时距离顶部的间隔。\n
+        默认情况下全部收缩，调用behavior.showCollapsed()会显示半收缩的视图。它会将第一个子View作为半收缩的视图，第二个子View作为展开的视图。\n
+    </string>
 </resources>
